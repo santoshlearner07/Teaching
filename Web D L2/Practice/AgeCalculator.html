@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Codeyoung : Age Calculator</h2>
+    <div class="box">
+      <span>Enter Date of Birth:</span>
+      <input type="date" id="birthDate" />
+      <br />
+      <input type="submit" value="Submit" onclick="checkDate()" />
+      <h3 style="color: Blue" id="result">Age is :</h3>
+    </div>
+    <script>
+      function checkDate() {
+        var wholeBirthDate = document.getElementById("birthDate").value;
+
+        var birthYear = new Date(wholeBirthDate).getFullYear();
+        var birthMonth = new Date(wholeBirthDate).getMonth() + 1;
+        var birthDate = new Date(wholeBirthDate).getDate();
+
+
+        var currentYear = new Date().getFullYear();
+        var currentMonth = new Date().getMonth() + 1;
+        var currentDate = new Date().getDate();
+
+        
+        document.getElementById(
+          "result"
+        ).innerHTML = `Your current Age is ${Math.abs(
+          currentYear - birthYear
+        )} Years <br> To be specific you are ${
+          currentYear - birthYear
+        } Years ${Math.abs(currentMonth - birthMonth)} Months ${Math.abs(
+          currentDate - birthDate
+        )} Days `;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-color: aqua;
+}
+
+@media only screen and (min-width: 100px) {
+  .col-xs-12 {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .col-xs-12 {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .col-xs-12 {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .col-xs-12 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .col-xs-12 {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-xs-12 {
+    background-color: pink;
+  }
+}

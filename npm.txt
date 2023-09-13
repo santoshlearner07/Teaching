@@ -1,0 +1,13 @@
+node.js
+npm i -g npx
+restart the vs code
+
+host website for react
+npm run build
+
+netlify
+1) Sign Up
+2) Tech Name
+3) Sites
+4) npm run build in react app
+5) Domain settings ----- change domain name

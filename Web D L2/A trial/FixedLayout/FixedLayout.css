@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+.codeyoung {
+    color: blue;
+}
+img {
+    width: 300px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 20px;
+}

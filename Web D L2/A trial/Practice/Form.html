@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="./Form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lumanosimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <h1>Hotel Booking</h1> -->
+    <form action="" name="bookingDetails" onsubmit="hotelBooking()">
+      <fieldset>
+        <legend>Hotel Booking</legend>
+        <label for="">First Name</label>
+        <br /><input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="First Name"
+        />
+        <br /><label for="">Last Name</label> <br /><input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Last Name"
+        />
+        <br /><label for="">Check In Time</label> <br /><input
+          type="time"
+          name="checkInTime"
+          id="checkInTime"
+          placeholder="Check In Time"
+        />
+        <br /><label for="">Check Out Time</label> <br /><input
+          type="time"
+          name="checkOutTime"
+          id="checkOutTime"
+        />
+        <br /><label for="">Check In Date</label> <br /><input
+          type="date"
+          name="checkInDate"
+          id="checkInDate"
+        />
+        <br /><label for="">Check Out Date</label> <br /><input
+          type="date"
+          name="checkOutDate"
+          id="checkOutDate"
+        /><br />
+        <label for="">How Many Men?</label><br />
+        <input
+          type="number"
+          name="men"
+          id="men"
+          placeholder="How Many Men ?"
+        /><br />
+        <label for="">How Many Women ?</label><br />
+        <input
+          type="number"
+          name="women"
+          id="women"
+          placeholder="How many Women ? "
+        /><br />
+        <label for="">How Many Children ?</label><br />
+        <input
+          type="number"
+          name="children"
+          id="children"
+          placeholder="How many children ? "
+        /><br />
+        <label for="">Email</label><br />
+        <input type="email" name="email" id="email" placeholder="email" />
+        <br /><br />
+        <input class="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <!-- <script>
+      function hotelBooking() {
+        var a = document.forms["bookingDetails"]["firstName"].value;
+        var b = document.forms['bookingDetails']['firstName'].value;
+        if (a == "") {
+          alert("First Name is required!!!!");
+        }
+        if (a == "" ){
+            alert("Last Name is required!!!!")
+        }
+      }
+    </script> -->
+  </body>
+</html>

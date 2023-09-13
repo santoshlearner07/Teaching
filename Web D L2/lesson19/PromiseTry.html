@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    <p id="demoPromise"></p>
+    <p id="demoPromise2"></p>
+    <script>
+        let promise = new Promise(function(resolve,reject){
+            const x= "helloWorld";
+            const y = "helloWorld"
+
+            if(x===y){
+                resolve()
+            } else {
+                reject()
+            }
+        })
+
+        promise
+        .then(function(){
+            document.getElementById('demoPromise').innerHTML = 'Success, Code resolved 1 '
+        })
+        .then(function(){
+            document.getElementById('demoPromise2').innerHTML = 'Success, Code resolved 2 '
+        })
+        .catch(function(){
+            document.getElementById('demoPromise').innerHTML = 'Some Error has occured'
+        })
+    </script>
+</body>
+</html>

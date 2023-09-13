@@ -1,0 +1,32 @@
+.circle {
+    width: 270px;
+    height: 270px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+}
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 24px;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(227, 200, 200);
+    margin: 0;
+}
+.main-box{
+    display: table;position: relative;width: 100%;
+    background: url(../Assests/portfoio/pexels-the-lazy-artist-gallery-1201673.jpg) no-repeat center scroll; background-size: cover;
+}
+.text-vertical-center{
+    display: table-cell;
+text-align: center;
+position: relative;
+top: 10px;
+vertical-align: middle;
+}

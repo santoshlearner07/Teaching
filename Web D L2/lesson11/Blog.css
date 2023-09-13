@@ -1,0 +1,19 @@
+body {
+    /* background-image: linear-gradient(to bottom,aqua,green); */
+    background-color: wheat;
+}
+.quotes{
+width: 50%;
+margin-left: 25%;
+margin-top: 15vh;
+margin-bottom: 15vh;
+}
+.col-xs-12{
+    margin-bottom: 2vh;
+}
+.navbar{
+    margin: 5vh;
+}
+.row{
+    background-image: url("../Assests/B3797D56-D2E7-4914-8CCC-8567B33830B2.JPG");
+}
